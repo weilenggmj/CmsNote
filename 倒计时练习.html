@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>two</title>
+	<meta charset="utf-8"/> 
+</head>
+<body>
+
+</body>
+<script>
+	alert(navigator.userAgent);
+    var userAgent=navigator.userAgent;
+    document.write(navigator.userAgent);
+    console.log(11);
+	console.log(navigator);
+	console.log(navigator.userAgent);
+	if(userAgent.indexOf('Chrome')>=0)
+		alert('谷歌');
+	else if(userAgent.indexOf('Firefox')>=0)
+		alert('火狐');
+	else
+		alert('未知');
+	document.write('<table border="1">');
+	for (var i = 0; i < 4; i++)
+	{
+		document.write('<tr>');
+		for (var j = 0; j < 5; j++) 
+		{
+			document.write('<td>');
+			document.write('&nbsp');
+			document.write('</td>');
+		}
+		document.write('</tr>');
+	}
+	document.write('</table>');
+	function checklenght(str,mima)
+	{
+		if(str.length>=6)
+			alert(true);
+		else
+			alert(false);
+		if (mima.length>=8)
+			alert('密码过长');
+		else
+			return true;
+	}
+	alert(checklenght("14467","956562465"));
+
+</script>
+</html>
