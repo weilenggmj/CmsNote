@@ -39,4 +39,4 @@
 		区块：段落和换行，标题，列表
 		
 		区段：链接，强调，行内代码，图片
-    [来自] <http://www.markdown.cn/#block-elements> 
+    [来自](http://www.markdown.cn/#block-elements)
